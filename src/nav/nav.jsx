@@ -1,8 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
-import astronautHelmet from '../assets/astronaut-helmet.png';
-import deadEye from '../assets/dead-eye.png';
-import stack from '../assets/stack.png';
-import envelope from '../assets/envelope.png';
+import kangaroo from '../assets/kangaroo.svg';
+import elephant from '../assets/elephant.svg';
+import camel from '../assets/camel.svg'
+import bear from '../assets/bear.svg'
 import '../style/nav.css'
 
 
@@ -65,7 +65,7 @@ const Nav = () => {
         {
           renderNavLink(
             '/',
-            astronautHelmet,
+            kangaroo,
             'astronaut helmet icon',
             'nav-about'
           )
@@ -73,7 +73,7 @@ const Nav = () => {
         {
           renderNavLink(
             '/skills',
-            deadEye,
+            elephant,
             'astronaut helmet icon',
             'nav-skills'
           )
@@ -81,7 +81,7 @@ const Nav = () => {
         {
           renderNavLink(
             '/projects',
-            stack,
+            camel,
             'stack icon',
             'nav-projects'
           )
@@ -89,7 +89,7 @@ const Nav = () => {
         {
           renderNavLink(
             '/contact',
-            envelope,
+            bear,
             'envelop icon',
             'nav-contact'
           )

@@ -1,6 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-import avatarImg from '../assets/avatar_v2.png';
+import avatarImg from '../assets/pixar.png';
 import styled from 'styled-components';
 
 const AvatarWrapper = styled.div`
@@ -18,9 +17,9 @@ const AvatarWrapper = styled.div`
   }
 
   .avatar.skills {
-    height: 190vh;
-    bottom: -110vh;
-    left: -1.5rem;
+    height: 120vh;
+    bottom: -40vh;
+    right: 10%;
     transform: translateX(0%) scaleX(-1);
   }
 
@@ -39,9 +38,7 @@ const AvatarWrapper = styled.div`
 
   @media (max-width: 1100px) {
     .avatar.skills {
-      z-index: -5;
-      height: 95vh;
-      bottom: -15vh;
+      display: none;
     }
   }
 
@@ -49,7 +46,7 @@ const AvatarWrapper = styled.div`
     .avatar.about {
       z-index: -5;
       height: 95vh;
-      bottom: -15vh
+      bottom: -15vh;
     }
   }
 `;

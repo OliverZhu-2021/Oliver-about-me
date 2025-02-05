@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import Avatar from '../avatar/avatar';
 import AboutMenu from './about-menu';
 

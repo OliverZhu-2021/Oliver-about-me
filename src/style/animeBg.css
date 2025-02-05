@@ -1,0 +1,69 @@
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #ff6a00, #ee0979, #7f00ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -5;
+}
+
+section h2 {
+  position: relative;
+  text-align: center;
+  font-size: 160px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.city {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: url(../assets/worldLandmarks.png);
+  background-repeat: repeat-x;
+  background-size: 1500px;
+  z-index: -4;
+  pointer-events: none;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0px;
+  }
+
+  100% {
+    background-position: 1500px;
+  }
+}
+
+.city:before {
+  content: '';
+  opacity: 0.1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: url(../assets/worldLandmarks.png);
+  background-repeat: repeat-x;
+  background-size: 1800px;
+  z-index: -4;
+  pointer-events: none;
+  animation: animateReverse 40s linear infinite;
+}
+
+@keyframes animateReverse {
+  0% {
+    background-position: 1800px;
+  }
+
+  100% {
+    background-position: 0px;
+  }
+}
+
