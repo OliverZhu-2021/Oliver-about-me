@@ -1,9 +1,9 @@
 import '../style/skills-menu.css';
 import classNames from 'classnames';
 import skills from './skills-data';
-import frontendIcon from '../assets/eagle-emblem.png';
-import backendIcon from '../assets/hawk-emblem.png';
-import React, { Component, useState } from 'react';
+import frontendIcon from '../assets/coconut.svg';
+import backendIcon from '../assets/taco.svg';
+import { useState } from 'react';
 
 const SkillsMenu = () => {
   const [activeMenuItem, setActiveMenuItem] = useState(1)

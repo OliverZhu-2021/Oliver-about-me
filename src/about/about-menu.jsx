@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
 import { useState } from 'react';
 import AboutMenuItem from './about-menu-item';
 import AboutSubheading from './about-sub-heading';
 import subheadingData from './subheading-data';
-import personalIcon from '../assets/moebius-triangle.png';
-import educationIcon from '../assets/upgrade.png';
-import careerIcon from '../assets/triple-corn.png' 
+import personalIcon from '../assets/pizza.svg';
+import educationIcon from '../assets/sushi.svg';
+import careerIcon from '../assets/hamburger.svg'; 
 import '../style/menu.css'
 
 
