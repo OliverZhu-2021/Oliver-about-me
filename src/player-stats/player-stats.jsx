@@ -1,5 +1,5 @@
-import React from "react";
 import styled from "styled-components";
+import EarthSpin from "./earth-spin";
 
 const PlayerStatsWrapper = styled.div`
   position: fixed;
@@ -40,6 +40,13 @@ const PlayerStatsWrapper = styled.div`
   }
 `;
 
+const UpperWrapper = styled.div`
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin: 8px 0;
+`;
+
 const PlayerStatsLines = styled.div`
   position: relative;
   display: flex;
@@ -66,12 +73,15 @@ const SpanThin = styled.span`
 const PlayerStats = () => {
   return (
     <PlayerStatsWrapper>
-      <h1>Hao Zhu LEVEL 23</h1>
+      <UpperWrapper>
+        <EarthSpin />
+        <h1>Hao Zhu 23</h1>
+      </UpperWrapper>
       <PlayerStatsLines>
         <SpanThick></SpanThick>
         <SpanThin></SpanThin>
       </PlayerStatsLines>
-      <h2>Fullstack Developer</h2>
+      <h2 style={{display: "flex", justifyContent: "center", margin:"4px 0"}}>Postgrad student</h2>
     </PlayerStatsWrapper>
   )
 };
