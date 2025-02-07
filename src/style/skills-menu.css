@@ -83,11 +83,11 @@
 }
 
 .filled {
-  background: linear-gradient(180deg, #236473, #25afce, #7ce7ff);
+  background: linear-gradient(180deg, #ff7e29, #ff9f50, #ffbf80);
 }
 
 .unfilled {
-  background: linear-gradient(180deg, #1c8298, #074654, #074754);
+  background: linear-gradient(180deg, #9c3a00, #b4521e, #d67a42);
 }
 
 .skill-sub-container {
