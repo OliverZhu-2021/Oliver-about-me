@@ -139,6 +139,22 @@ const ContactMenu = () => {
                 )}
             </div>
             <button type="submit" disabled={isLoading}>{isLoading ? 'SENDING...' : 'SUBMIT'}</button>
+            <div className='link-container'>
+              <a
+                href='https://github.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                GITHUB
+              </a>
+              <a
+                href='https://netlify.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                LinkedIn
+              </a>
+            </div>
           </form>
         )}
         {isSent && (

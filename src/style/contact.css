@@ -84,6 +84,19 @@ button {
   display: none;
 }
 
+.link-container a {
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+  width: 50%;
+  height: 2.75rem;
+  text-align: center;
+}
+.link-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (max-width: 1100px) {
   .contact-menu {
     top: 50%;
@@ -103,5 +116,10 @@ button {
   }
   .success-message p {
     padding: 0 0.5rem;
+  }
+  .link-container a {
+    margin-top: 0.5rem;
+    width: 50%;
+    height: 2rem;
   }
 }
