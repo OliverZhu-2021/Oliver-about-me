@@ -1,7 +1,7 @@
+/* eslint-disable react/prop-types */
 import classNames from 'classnames';
 
 const AboutMenuItem = ({ title, active, onClick }) => {
-    console.log('active', title, active);
     return(
       <>
         <div

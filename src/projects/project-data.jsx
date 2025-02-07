@@ -1,18 +1,17 @@
-import projectOne from '../assets/project-1.png';
-import projectTwo from '../assets/project-2.png';
-import projectThree from '../assets/project-3.png'; 
+import projectOne from '../assets/surfing.png';
+import projectTwo from '../assets/mario.png';
+import projectThree from '../assets/ghost.png'; 
 
 const projects = {
   1: {
-    title: 'SoMe platform',
+    title: 'Surfing',
     image: projectOne,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed dolor
-          eiusmod tempor incididunt ut labore et dolore magna
-          aliqua.
+          I picked up surfing during my first year here in Australia and have been hooked ever since. I love sitting in the lineup, 
+          taking in the beautiful view, as well as pushing my limits—going for bigger waves, 
+          even if it means getting pounded sometimes. But hey, that is all part of the thrill!
         </p>
       </>
     ),
@@ -20,15 +19,13 @@ const projects = {
     demo: 'https://netlify.com',
   },
   2: {
-    title: 'Productivity App',
+    title: 'Mario Odyssey',
     image: projectTwo,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed dolor
-          eiusmod tempor incididunt ut labore et dolore magna
-          aliqua.
+          I am a big fan of Nintendo games, especially Super Mario Odyssey, because they are casual, fun, 
+          and a great way to unwind. When study get stressful, a little Mario adventure is all I need!
         </p>
       </>
     ),
@@ -36,15 +33,13 @@ const projects = {
     demo: 'https://netlify.com',
   },
   3: {
-    title: 'Food delivery App',
+    title: 'Demon Slayer',
     image: projectThree,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed dolor
-          eiusmod tempor incididunt ut labore et dolore magna
-          aliqua.
+          I enjoy watching anime! Some of my favorites include Hunter x Hunter, Attack on Titan, and Haikyuu!!. 
+          Lately, I have been really into Demon Slayer.
         </p>
       </>
     ),

@@ -16,7 +16,7 @@ const Nav = () => {
         return 'nav-about';
       case '/skills':
         return 'nav-skills';
-      case '/projects':
+      case '/hobbies':
         return 'nav-projects';
       case '/contact':
         return 'nav-contact';
@@ -31,8 +31,8 @@ const Nav = () => {
           return 'ABOUT';
         case '/skills':
           return 'SKILLS';
-        case '/projects':
-          return 'PROJECTS';
+        case '/hobbies':
+          return 'Hobbies';
         case '/contact':
           return 'CONTACT';
         default:
@@ -80,7 +80,7 @@ const Nav = () => {
         }
         {
           renderNavLink(
-            '/projects',
+            '/hobbies',
             camel,
             'stack icon',
             'nav-projects'

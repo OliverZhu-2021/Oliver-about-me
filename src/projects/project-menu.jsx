@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import classNames from 'classnames';
 import projects from './project-data';
 import { useState } from 'react';
@@ -11,7 +10,7 @@ const ProjectMenu = () => {
     setActiveProject(project);
   };
 
-  const projectItems = ['PROJECT ONE', 'PROJECT TWO', 'PROJECT THREE'];
+  const projectItems = ['SPORTS', 'GAME', 'ANIME'];
 
   return(
     <div className='project-menu'>

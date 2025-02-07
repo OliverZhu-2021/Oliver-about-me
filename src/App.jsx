@@ -52,7 +52,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<About />}/>
           <Route path='/skills' element={<Skills />}/>
-          <Route path='/projects' element={<Projects />}/>
+          <Route path='/hobbies' element={<Projects />}/>
           <Route path='/contact' element={<Contact />}/>
         </Routes>
         <PlayerStats/>
