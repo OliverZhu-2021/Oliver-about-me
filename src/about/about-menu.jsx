@@ -22,7 +22,7 @@ const AboutMenu = () => {
     setActiveSubheading(subheading);
   };
 
-  const menuItems = ['PERSONAL', 'EDUCATION', 'CAREER'];
+  const menuItems = ['PERSONAL', 'EDUCATION', 'CAMPUS LIFE'];
   const activeMenuTitle = menuItems[activeMenuItem - 1];
   const activeMenuIcon = 
     activeMenuTitle === 'PERSONAL' ? personalIcon : 
