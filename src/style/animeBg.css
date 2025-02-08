@@ -2,7 +2,7 @@ section {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, #ff6a00, #ee0979, #7f00ff);
+  background: linear-gradient(135deg, #00C4CC, #6200EA);
   display: flex;
   align-items: center;
   justify-content: center;
