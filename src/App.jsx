@@ -45,7 +45,7 @@ const App = () => {
   
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/Oliver-about-me'>
         <GlobalStyle />
         <Nav />
         <AnimeBg />
