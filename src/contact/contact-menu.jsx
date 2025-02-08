@@ -2,8 +2,6 @@ import { useState } from "react";
 import emailjs from 'emailjs-com';
 import DOMPurify from 'dompurify';
 import '../style/contact.css';
-import linkIn from '../assets/linkedin.svg';
-import instagram from '../assets/instagram.svg';
 
 const ContactMenu = () => {
   const initialState = {
@@ -143,18 +141,18 @@ const ContactMenu = () => {
             <button type="submit" disabled={isLoading}>{isLoading ? 'SENDING...' : 'SUBMIT'}</button>
             <div className='link-container'>
               <a
-                href='https://www.instagram.com/zhuhao6774/'
+                href='https://github.com'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <img src={instagram} alt="instagram" />
+                GITHUB
               </a>
               <a
-                href='https://www.linkedin.com/in/hao-zhu-1ab753299/'
+                href='https://netlify.com'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <img src={linkIn} alt="linkedIn" />
+                LinkedIn
               </a>
             </div>
           </form>
