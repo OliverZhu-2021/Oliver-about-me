@@ -45,7 +45,7 @@ const App = () => {
   
   return (
     <>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter>
         <GlobalStyle />
         <Nav />
         <AnimeBg />

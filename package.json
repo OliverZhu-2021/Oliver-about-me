@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://OliverZhu-2021.github.io/portfolio-devsoc/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
